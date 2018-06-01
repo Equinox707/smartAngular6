@@ -1,0 +1,12 @@
+D:\Classes\SmartAngular\12 Publishing\VouchersAPI\VouchersAPI\bin\Release\netcoreapp2.0\Vouchers.deps.json
+D:\Classes\SmartAngular\12 Publishing\VouchersAPI\VouchersAPI\bin\Release\netcoreapp2.0\Vouchers.runtimeconfig.json
+D:\Classes\SmartAngular\12 Publishing\VouchersAPI\VouchersAPI\bin\Release\netcoreapp2.0\Vouchers.runtimeconfig.dev.json
+D:\Classes\SmartAngular\12 Publishing\VouchersAPI\VouchersAPI\bin\Release\netcoreapp2.0\Vouchers.dll
+D:\Classes\SmartAngular\12 Publishing\VouchersAPI\VouchersAPI\bin\Release\netcoreapp2.0\Vouchers.pdb
+D:\Classes\SmartAngular\12 Publishing\VouchersAPI\VouchersAPI\obj\Release\netcoreapp2.0\VouchersAPI.csprojResolveAssemblyReference.cache
+D:\Classes\SmartAngular\12 Publishing\VouchersAPI\VouchersAPI\obj\Release\netcoreapp2.0\VouchersAPI.csproj.CoreCompileInputs.cache
+D:\Classes\SmartAngular\12 Publishing\VouchersAPI\VouchersAPI\obj\Release\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+D:\Classes\SmartAngular\12 Publishing\VouchersAPI\VouchersAPI\obj\Release\netcoreapp2.0\VouchersAPI.AssemblyInfoInputs.cache
+D:\Classes\SmartAngular\12 Publishing\VouchersAPI\VouchersAPI\obj\Release\netcoreapp2.0\VouchersAPI.AssemblyInfo.cs
+D:\Classes\SmartAngular\12 Publishing\VouchersAPI\VouchersAPI\obj\Release\netcoreapp2.0\Vouchers.dll
+D:\Classes\SmartAngular\12 Publishing\VouchersAPI\VouchersAPI\obj\Release\netcoreapp2.0\Vouchers.pdb

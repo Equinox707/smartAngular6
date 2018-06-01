@@ -1,0 +1,36 @@
+@import './theme/style-vars.scss';
+@import './theme/mixins.scss';
+@import './theme/resets.scss';
+@import './theme/theme.scss';
+@import './theme/mat-overrides.scss';
+@import './theme/table.scss';
+@import './theme/form.scss';
+@import './theme/boxes.scss';
+@import './theme/bars.scss';
+
+
+
+.cmdIcon{
+    color: $darkBackground; 
+    @include mouse;  
+
+    &:hover{
+        color: $lightBackground;     
+    }
+}
+
+.masterContainer{
+    height: 100vh;
+    padding: 0px $smallGap;
+    background-color: $lightBackground;
+}
+
+.mainScreen {   
+    height: 90vh;
+    // overflow: auto;
+}
+
+   
+.sidebar-module, .navbar-inverse{
+    background-color: $darkBackground;
+}

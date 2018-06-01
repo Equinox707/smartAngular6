@@ -1,0 +1,25 @@
+@import "varsAndMixins";
+agm-map {
+  height: 300px;
+}
+
+mat-card img {
+  object-fit: cover; /*this makes de image in src fit to the size of specified below*/
+  width: 20%;
+  height: 20%;
+}
+
+textarea {
+  border-style: dotted;
+  border-width: 1px;
+  border-color: $barCol;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container > * {
+  width: 100%;
+}

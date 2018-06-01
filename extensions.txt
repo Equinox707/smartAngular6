@@ -1,0 +1,11 @@
+Angular.ng-template
+esbenp.prettier-vscode
+formulahendry.auto-rename-tag
+hnw.vscode-auto-open-markdown-preview
+ms-vscode.csharp
+ms-vscode.PowerShell
+msjsdiag.debugger-for-chrome
+pranaygp.vscode-css-peek
+rbbit.typescript-hero
+robertohuertasm.vscode-icons
+Zignd.html-css-class-completion

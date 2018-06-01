@@ -1,0 +1,83 @@
+<div fxLayout="column">
+
+
+  <mat-card class="cardMarker">
+    <mat-card-header fxLayout="row" fxLayoutGap="25px">
+      <img mat-card-avatar [src]="marker.imgURL" />
+      <mat-card-title-group>
+
+        <mat-card-title *ngIf="!editMode">{{marker.lable}}</mat-card-title>
+
+        <mat-card-title *ngIf="editMode">
+
+          <mat-form-field class="form-container" form-field>
+            <input matInput placeholder="Label" [(ngModel)]="marker.lable">
+          </mat-form-field>
+
+        </mat-card-title>
+
+        <mat-card-subtitle *ngIf="!editMode" [innerText]='getMarkerType(marker.type)'></mat-card-subtitle>
+        <mat-card-subtitle *ngIf="editMode">
+
+          <mat-label>Type</mat-label>
+          <mat-select [(value)]="marker.type">
+            <mat-option [value]=0>Unclassified</mat-option>
+            <mat-option [value]=1>Beeren</mat-option>
+            <mat-option [value]=2>Holler</mat-option>
+            <mat-option [value]=3>Schwammerl</mat-option>
+          </mat-select>
+
+        </mat-card-subtitle>
+
+      </mat-card-title-group>
+    </mat-card-header>
+    <mat-card-actions align="end" *ngIf="marker!=null && !editMode">
+      <mat-slide-toggle [checked]="showWeather">Show Weather</mat-slide-toggle>
+    </mat-card-actions>
+  </mat-card>
+
+  <mat-card class="cardMarker">
+    <mat-card-content>
+      <mat-card-subtitle>Anmerkung</mat-card-subtitle>
+      <div *ngIf="!editMode">{{marker.remark}}</div>
+      <div *ngIf="editMode" class="form-container">
+        <textarea matInput rows="3" [(ngModel)]="marker.remark"></textarea>
+      </div>
+    </mat-card-content>
+  </mat-card>
+
+  <mat-card class="cardMarker">
+    <mat-card-content>
+      <mat-card-title-group fxLayout="row nowrap">
+        <mat-card-subtitle *ngIf="marker.hasCoords">Position: Long: {{marker.lng}} / Lat: {{marker.lat}}</mat-card-subtitle>
+
+        <mat-icon *ngIf="editMode" (click)="setMarkerLocation()" aria-label="Click here to take your current GPS Position" color="accent">not_listed_location</mat-icon>
+
+      </mat-card-title-group>
+      <agm-map *ngIf="marker.hasCoords" [latitude]="marker.lat" [longitude]="marker.lng">
+        <agm-marker [latitude]="marker.lat" [longitude]="marker.lng"></agm-marker>
+        <agm-direction *ngIf="showDirection" [origin]="direction.origin" [destination]="direction.destination"></agm-direction>
+      </agm-map>
+    </mat-card-content>
+  </mat-card>
+
+  <mat-card *ngIf="showWeather" class="cardMarker">
+    Wetter
+  </mat-card>
+
+  <mat-card class="cardMarker">
+    <mat-card-content fxLayout="row" fxLayoutAlign="center center" fxLayoutGap='20px'>
+      <button mat-fab color="accent" (click)="watchDirection()" *ngIf="marker.hasCoords">
+        <mat-icon>navigation</mat-icon>
+      </button>
+      <button mat-fab color="accent" *ngIf="marker!=null">
+        <mat-icon>camera_enhance</mat-icon>
+      </button>
+      <button mat-fab color="accent" (click)="toggleEdit()" *ngIf="!editMode">
+        <mat-icon>edit</mat-icon>
+      </button>
+      <button mat-fab color="accent" (click)="saveMarker()" *ngIf="editMode">
+        <mat-icon>save</mat-icon>
+      </button>
+    </mat-card-content>
+  </mat-card>
