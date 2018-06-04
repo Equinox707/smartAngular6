@@ -50,9 +50,6 @@
     <mat-card-content>
       <mat-card-title-group fxLayout="row nowrap">
         <mat-card-subtitle *ngIf="marker.hasCoords">Position: Long: {{marker.lng}} / Lat: {{marker.lat}}</mat-card-subtitle>
-
-        <mat-icon *ngIf="editMode" (click)="setMarkerLocation()" aria-label="Click here to take your current GPS Position" color="accent">not_listed_location</mat-icon>
-
       </mat-card-title-group>
       <agm-map *ngIf="marker.hasCoords" [latitude]="marker.lat" [longitude]="marker.lng">
         <agm-marker [latitude]="marker.lat" [longitude]="marker.lng"></agm-marker>
@@ -67,17 +64,23 @@
 
   <mat-card class="cardMarker">
     <mat-card-content fxLayout="row" fxLayoutAlign="center center" fxLayoutGap='20px'>
-      <button mat-fab color="accent" (click)="watchDirection()" *ngIf="marker.hasCoords">
+      <button mat-fab color="accent" (click)="watchDirection()" *ngIf="marker.hasCoords && !editMode">
         <mat-icon>navigation</mat-icon>
-      </button>
-      <button mat-fab color="accent" *ngIf="marker!=null">
-        <mat-icon>camera_enhance</mat-icon>
       </button>
       <button mat-fab color="accent" (click)="toggleEdit()" *ngIf="!editMode">
         <mat-icon>edit</mat-icon>
       </button>
+      <button mat-fab color="accent" (click)="setMarkerLocation()" *ngIf="editMode">
+        <mat-icon>not_listed_location</mat-icon>
+      </button>
+      <button mat-fab color="accent" (click)="takePicture()" *ngIf="editMode">
+        <mat-icon>camera_enhance</mat-icon>
+      </button>
       <button mat-fab color="accent" (click)="saveMarker()" *ngIf="editMode">
         <mat-icon>save</mat-icon>
+      </button>
+      <button mat-fab color="warn" (click)="saveMarker()" *ngIf="editMode">
+        <mat-icon>cancel</mat-icon>
       </button>
     </mat-card-content>
   </mat-card>

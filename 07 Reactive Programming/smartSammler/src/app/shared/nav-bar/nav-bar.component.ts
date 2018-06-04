@@ -21,4 +21,8 @@ export class NavBarComponent implements OnInit {
       this.onlineState = online ? ONLINE : OFFLINE;
     });
   }
+
+  getStateCol(): string {
+    return "warning";
+  }
 }

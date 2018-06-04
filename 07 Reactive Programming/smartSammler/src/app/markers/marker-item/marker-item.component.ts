@@ -74,7 +74,7 @@ export class MarkerItemComponent implements OnInit {
   //Marker GPS
 
   checkCoords(m: Marker) {
-    if (this.marker.lat != 0 && this.marker.lng != 0) {
+    if (this.marker.lat != undefined && this.marker.lng != undefined) {
       this.marker.hasCoords = true;
     }
   }
@@ -124,5 +124,11 @@ export class MarkerItemComponent implements OnInit {
       this.direction.origin.lng = data.coords.longitude;
       this.showDirection = true;
     });
+  }
+
+  //Camera
+
+  takePicture() {
+    console.log("Taking picture ...");
   }
 }
