@@ -12,3 +12,13 @@ D:\Classes\smartAngular6\07 Reactive Programming\smartSammlerAPI\smartSammlerAPI
 D:\Classes\smartAngular6\07 Reactive Programming\smartSammlerAPI\smartSammlerAPI\obj\Debug\netcoreapp2.1\smartSammlerAPI.dll
 D:\Classes\smartAngular6\07 Reactive Programming\smartSammlerAPI\smartSammlerAPI\obj\Debug\netcoreapp2.1\smartSammlerAPI.pdb
 D:\Classes\smartAngular6\07 Reactive Programming\smartSammlerAPI\smartSammlerAPI\obj\Debug\netcoreapp2.1\smartSammlerAPI.csprojAssemblyReference.cache
+D:\smartAngular6\07 Reactive Programming\smartSammlerAPI\smartSammlerAPI\obj\Debug\netcoreapp2.1\smartSammlerAPI.csproj.CoreCompileInputs.cache
+D:\smartAngular6\07 Reactive Programming\smartSammlerAPI\smartSammlerAPI\obj\Debug\netcoreapp2.1\smartSammlerAPI.AssemblyInfoInputs.cache
+D:\smartAngular6\07 Reactive Programming\smartSammlerAPI\smartSammlerAPI\obj\Debug\netcoreapp2.1\smartSammlerAPI.AssemblyInfo.cs
+D:\smartAngular6\07 Reactive Programming\smartSammlerAPI\smartSammlerAPI\obj\Debug\netcoreapp2.1\smartSammlerAPI.dll
+D:\smartAngular6\07 Reactive Programming\smartSammlerAPI\smartSammlerAPI\obj\Debug\netcoreapp2.1\smartSammlerAPI.pdb
+D:\smartAngular6\07 Reactive Programming\smartSammlerAPI\smartSammlerAPI\bin\Debug\netcoreapp2.1\smartSammlerAPI.deps.json
+D:\smartAngular6\07 Reactive Programming\smartSammlerAPI\smartSammlerAPI\bin\Debug\netcoreapp2.1\smartSammlerAPI.runtimeconfig.json
+D:\smartAngular6\07 Reactive Programming\smartSammlerAPI\smartSammlerAPI\bin\Debug\netcoreapp2.1\smartSammlerAPI.runtimeconfig.dev.json
+D:\smartAngular6\07 Reactive Programming\smartSammlerAPI\smartSammlerAPI\bin\Debug\netcoreapp2.1\smartSammlerAPI.dll
+D:\smartAngular6\07 Reactive Programming\smartSammlerAPI\smartSammlerAPI\bin\Debug\netcoreapp2.1\smartSammlerAPI.pdb
