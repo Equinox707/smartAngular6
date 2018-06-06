@@ -22,3 +22,7 @@ D:\smartAngular6\07 Reactive Programming\smartSammlerAPI\smartSammlerAPI\bin\Deb
 D:\smartAngular6\07 Reactive Programming\smartSammlerAPI\smartSammlerAPI\bin\Debug\netcoreapp2.1\smartSammlerAPI.runtimeconfig.dev.json
 D:\smartAngular6\07 Reactive Programming\smartSammlerAPI\smartSammlerAPI\bin\Debug\netcoreapp2.1\smartSammlerAPI.dll
 D:\smartAngular6\07 Reactive Programming\smartSammlerAPI\smartSammlerAPI\bin\Debug\netcoreapp2.1\smartSammlerAPI.pdb
+D:\smartAngular6\07 Reactive Programming\smartSammlerAPI\smartSammlerAPI\obj\Debug\netcoreapp2.1\smartSammlerAPI.csprojAssemblyReference.cache
+D:\smartAngular6\07 Reactive Programming\smartSammlerAPI\smartSammlerAPI\obj\Debug\netcoreapp2.1\smartSammlerAPI.RazorAssemblyInfo.cache
+D:\smartAngular6\07 Reactive Programming\smartSammlerAPI\smartSammlerAPI\obj\Debug\netcoreapp2.1\smartSammlerAPI.RazorAssemblyInfo.cs
+D:\smartAngular6\07 Reactive Programming\smartSammlerAPI\smartSammlerAPI\obj\Debug\netcoreapp2.1\smartSammlerAPI.RazorTargetAssemblyInfo.cache

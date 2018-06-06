@@ -40,6 +40,9 @@ import localeDe from '@angular/common/locales/de';
 import { ViewChildComponent } from './demos/view-child/view-child.component';
 import { AlertComponent } from './demos/view-child/alert/alert.component';
 import { AdminComponent } from './admin/admin.component';
+import { AccountComponent } from './accounts/account/account.component';
+import { AccountDetailComponent } from './accounts/account/account-detail/account-detail.component';
+import { AccountDetailsListComponent } from './accounts/account/account-details-list/account-details-list.component';
 registerLocaleData(localeDe)
 
 
@@ -75,7 +78,10 @@ registerLocaleData(localeDe)
     ParentChildComponent,
     ViewChildComponent,
     AlertComponent,
-    AdminComponent
+    AdminComponent,
+    AccountComponent,
+    AccountDetailComponent,
+    AccountDetailsListComponent
   ],
   imports: [
     FormsModule,

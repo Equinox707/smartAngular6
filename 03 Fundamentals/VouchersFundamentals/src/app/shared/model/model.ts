@@ -9,6 +9,15 @@ export class VoucherDetail {
     Comment: string;
 }
 
+export class BalanceAccountDetail {
+    ID: number;
+    VoucherID: number;
+    AccountID: number;
+    Account: BalanceAccount;
+    Text: string;
+    Amount: number;
+    Comment: string;
+}
 export class BalanceAccount {
     ID: number;
     Name: string;
