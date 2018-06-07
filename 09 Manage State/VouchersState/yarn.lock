@@ -3782,9 +3782,9 @@ license-webpack-plugin@^1.0.0:
   dependencies:
     ejs "^2.5.7"
 
-linqts@^1.10.3:
-  version "1.10.3"
-  resolved "https://registry.yarnpkg.com/linqts/-/linqts-1.10.3.tgz#44b7fc772762e6405193add1c5ebd11d797f812c"
+linqts@^1.11.0:
+  version "1.11.0"
+  resolved "https://registry.yarnpkg.com/linqts/-/linqts-1.11.0.tgz#fdc77bf2b18f5d217a8155ffb684ed5c12bd4d32"
 
 load-json-file@^1.0.0:
   version "1.1.0"

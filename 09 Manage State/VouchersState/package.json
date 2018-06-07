@@ -35,7 +35,7 @@
     "g": "^2.0.1",
     "hammerjs": "^2.0.8",
     "jquery": "^3.2.1",
-    "linqts": "^1.10.3",
+    "linqts": "^1.11.0",
     "moment": "^2.18.1",
     "ng2-file-upload": "^1.3.0",
     "ngx-ckeditor": "^0.2.0",
